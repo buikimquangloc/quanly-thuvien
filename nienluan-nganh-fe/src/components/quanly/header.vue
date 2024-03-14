@@ -1,6 +1,6 @@
 <template>
     <div class="component">
-            <div class="bg1 containerz"  >
+            <div class="bg1 container"  >
                 <hr>
                 <div class="row">
                 <div class="col-2 ml-1">
@@ -11,7 +11,7 @@
                         <a class="nav-link" href="#">Trang Chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quản Lý Độc Giả</a>
+                        <a class="nav-link" href="./xemDG.vue">Quản Lý Độc Giả</a>
                     </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Cập Nhật Tài Nguyên</a>
@@ -39,7 +39,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Xem Độc Giả</a>
+                    <a class="nav-link" href="./xemDG.vue">Xem Độc Giả</a>
                 </li>
               
                 </ul>

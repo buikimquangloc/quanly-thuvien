@@ -1,26 +1,21 @@
 <template>
-  <div class="">
+  <div class="component">
       <app-Header></app-Header>
       <app-TrangChu></app-TrangChu>
-      <!-- <app-Login></app-Login> -->
+      <app-Footer></app-Footer>
   </div>
 </template>
 
 <script>
   import Header from './components/quanly/header.vue';
   import Trangchu from './components/quanly/trangchu.vue';
-  // import Login from './components/quanly/login.vue';
+  import Footer from './components/quanly/footer.vue';
 
   export default {
     components: {
       appHeader: Header,
       appTrangChu: Trangchu,
-      // appLogin: Login,
+      appFooter: Footer,
     }
   }
 </script>
-
-<style>
-
-</style>
-
