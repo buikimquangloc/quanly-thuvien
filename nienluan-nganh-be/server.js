@@ -7,6 +7,8 @@ const path = require('path');
 const port = process.env.PORT || 2002;
 const hostname = process.env.HOST_NAME;
 
+const connectToDatabase = require('./config/connectDB');
+
 const router = require('./routes/route');
 app.use(router);
 
