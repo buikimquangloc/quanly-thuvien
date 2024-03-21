@@ -9,11 +9,10 @@ const hostname = process.env.HOST_NAME;
 
 const connectToDatabase = require('./config/connectDB');
 
-const router = require('./routes/route');
-app.use(router);
-
 app.listen(port, hostname, () => {
     console.log(`Listening on port ${port}`)
 })
 
+const bookRouter = require('./routes/book.route')
+app.use("/books", bookRouter)
 
